@@ -53,7 +53,7 @@ const components: { title: string; to: string; description: string }[] = [
 ];
 function Navbar() {
   return (
-    <div className="py-8">
+    <div className="py-8 max-w-screen-2xl mx-auto w-[80%]">
       <div className="flex justify-end text-[1rem]">
         <Link to={"/login"} className="flex gap-2 items-center ">
           <NavBtn title="Login" /> <UserRound className="w-4" />{" "}

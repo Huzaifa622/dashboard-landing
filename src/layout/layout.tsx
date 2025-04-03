@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 function Layout() {
   return (
-    <div className={cn("max-w-screen-2xl mx-auto w-[80%]") } >
+    <div className={cn("") } >
       <Navbar />
       <Outlet />
       <Footer />

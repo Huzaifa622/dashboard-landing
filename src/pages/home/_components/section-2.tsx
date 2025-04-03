@@ -1,6 +1,6 @@
 function Section2() {
   return (
-    <div className="py-8 w-[80%] mx-auto">
+    <div className="py-8 max-w-screen-2xl mx-auto w-[60%]">
       <div className="flex items-center gap-3">
         <div className="w-[50%] flex flex-col gap-6">
           <h4 className="text-sm text-primary-foreground">
@@ -23,13 +23,13 @@ function Section2() {
           <img src="images/women.png" alt="women" />
         </div>
       </div>
-      <div className="flex gap-4 items-center" >
+      <div className="flex justify-between items-center" >
         <div className="text-primary-foreground">
             <h1 className="text-2xl font-bold" >Amplify everything you do with AI</h1>
             <p>Book a personalized demo to see how legal AI helps you meet the needs of
             today’s clients.</p>
         </div>
-        <div className="relative" ></div>
+        <div className="" ><img src="images/man.png" alt="asdasd" className="w-24" /></div>
       </div>
     </div>
   );

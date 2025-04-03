@@ -6,7 +6,7 @@ import Card from "./ui/card";
 
 function Herobanner() {
   return (
-    <div>
+    <div className="max-w-screen-2xl mx-auto w-[80%]" >
       <div className="flex flex-col items-center gap-6">
         <Review />
         <h1 className="text-primary-foreground">
