@@ -1,5 +1,6 @@
 import { EmblaOptionsType } from "embla-carousel";
 import EmblaCarousel from "./ui/emblacrousel";
+import Title from "./ui/title";
 
 const OPTIONS: EmblaOptionsType = { dragFree: true };
 // const SLIDE_COUNT = 16;
@@ -65,9 +66,7 @@ function Section4() {
     <div className="bg-accent py-20">
       <div className=" ">
         <div className=" mb-8 max-w-screen-2xl mx-auto w-[65%]">
-          <h4 className="text-primary-foreground mb-4">
-            Make Billing and Payments Easy
-          </h4>
+            <Title title="Make Billing and Payments Easy" />
           <h1 className="text-[1.7rem] font-bold mb-4">
             Legal software that makes invoicing easy for you, and payments
             seamless for clients

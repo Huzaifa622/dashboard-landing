@@ -1,10 +1,13 @@
+import Title from "./ui/title";
+
 function Section3() {
   return (
     <div className=" bg-[#E7DFC5]  py-20 ">
       <div className="max-w-screen-2xl mx-auto w-[65%]">
         <div className="flex mb-8">
           <div className="w-[35%] flex flex-col gap-4">
-            <h3 className="text-primary-foreground">Simplify Case Logistics</h3>
+          <Title title="Simplify Case Logistics" />
+            {/* <h3 className="text-primary-foreground"></h3> */}
             <h1 className="font-bold text-[1.7rem]">
               Law firm software that simplifies life for you, and for clients
             </h1>

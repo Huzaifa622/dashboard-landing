@@ -1,11 +1,12 @@
+import Title from "./ui/title";
+
 function Section2() {
   return (
     <div className="py-8 max-w-screen-2xl mx-auto w-[60%]">
       <div className="flex items-center gap-3">
         <div className="w-[50%] flex flex-col gap-6">
-          <h4 className="text-sm text-primary-foreground">
-            Accelerate casework with AI
-          </h4>
+          <Title title="Accelerate casework with AI" />
+          
           <h1 className="text-3xl font-bold text-primary-foreground">
             Leverage the power of legal AI to stay laser-focused on client needs
           </h1>
