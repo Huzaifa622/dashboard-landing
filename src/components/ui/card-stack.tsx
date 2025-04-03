@@ -64,7 +64,7 @@ export const CardStack = ({
             <div className="font-normal flex flex-col gap-6 text-neutral-200 pr-16 mt-8">
               {card.content}
               <div  >{card.designation}</div>
-              <Link to={"try"} className="group text-white mt-4 flex gap-4 items-center hover:text-sky-600 transition ease-in-out duration-200">Read Case Study<span aria-hidden="true" className="inline-block translate-x-0 group-hover:translate-x-1 transition-transform ease-in-out duration-200"><ArrowRight size={14} /></span></Link>
+              <Link to={""} className="group text-white mt-4 flex gap-4 items-center hover:text-sky-600 transition ease-in-out duration-200">Read Case Study<span aria-hidden="true" className="inline-block translate-x-0 group-hover:translate-x-1 transition-transform ease-in-out duration-200"><ArrowRight size={14} /></span></Link>
             </div>
             
             <div><img src={card.img} className="w-2xl"/></div>
