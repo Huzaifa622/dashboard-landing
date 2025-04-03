@@ -5,6 +5,8 @@ import Section3 from "./_components/section-3";
 import Section4 from "./_components/section-4";
 import Section5 from "./_components/section-5";
 import Section6 from "./_components/section-6";
+import Section7 from "./_components/section-7";
+import Section8 from "./_components/section-8";
 
 
 function Home() {
@@ -17,6 +19,8 @@ function Home() {
    <Section4/>
    <Section5/>
    <Section6/>
+   <Section7/>
+   <Section8/>
    </>
   );
 }
