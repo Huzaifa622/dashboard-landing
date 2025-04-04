@@ -63,7 +63,7 @@ function Navbar() {
         <div>
           <Logo/>
         </div>
-        <div>
+        <div className="hidden md:block">
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
