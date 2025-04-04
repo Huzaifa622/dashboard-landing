@@ -65,7 +65,7 @@ function Section4() {
   return (
     <div className="bg-accent py-20">
       <div className=" ">
-        <div className=" mb-8 max-w-screen-2xl mx-auto w-[65%]">
+        <div className=" mb-8 max-w-screen-2xl mx-auto w-[90%] md:w-[65%]">
             <Title title="Make Billing and Payments Easy" />
           <h1 className="text-[1.7rem] font-bold mb-4">
             Legal software that makes invoicing easy for you, and payments
@@ -81,7 +81,7 @@ function Section4() {
           </button>
         </div>
         <EmblaCarousel slides={slides} options={slides.length > 1 ? OPTIONS : {}} />
-        <div className="flex justify-between items-center max-w-screen-2xl mx-auto w-[65%]" >
+        <div className="flex flex-wrap py-8 justify-between items-center max-w-screen-2xl mx-auto w-[90%] md:w-[65%]" >
         <div className="">
             <h1 className="text-2xl font-bold" >Manage your law firm's finances in
             EVS</h1>
