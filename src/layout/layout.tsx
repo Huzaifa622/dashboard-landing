@@ -8,7 +8,7 @@ function Layout() {
     <div className={cn("") } >
       <Navbar />
       <Outlet />
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
