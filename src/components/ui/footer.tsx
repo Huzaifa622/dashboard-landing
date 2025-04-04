@@ -3,10 +3,10 @@ import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 function Footer() {
   return (
     <div className="w-full">
-      <div className="max-w-screen-2xl mx-auto w-[80%] ">
+      <div className="max-w-screen-2xl mx-auto md:w-[80%] ">
         <div className=" items-center w-full">
           <div className="py-6">
-            <div className="flex justify-between gap-6 items-center border-b pb-8 p-3">
+            <div className="flex flex-wrap justify-between gap-6 items-center border-b pb-8 p-3">
               <div>
                 <h1 className="font-bold">
                   Have questions? Call 1-888-858-2546 or email sales@EVS.com
@@ -24,7 +24,7 @@ function Footer() {
                 <Linkedin />
               </div>
             </div>
-            <div className="flex justify-between p-8">
+            <div className="flex flex-wrap justify-center gap-8 md:justify-between p-8">
               <div className="">
                 <h4 className="font-bold mb-2 text-center">Products</h4>
                 <ul className="flex flex-col gap-4 items-center text-xs opacity-80">
@@ -92,10 +92,10 @@ function Footer() {
             </div>
             <div className="py-12 flex justify-center">
               <div>
-                <h1 className="uppercase text-xl font-bold">
+                <h1 className="uppercase text-xl text-center font-bold">
                   Transforming the legal experience for all
                 </h1>
-                <div className="flex text-xs justify-between px-10 p-2 opacity-70">
+                <div className="flex md:flex-row flex-col gap-2 text-xs items-center md:justify-between px-10 p-2 opacity-70">
                   <h4>About Us</h4>
                   <h4>Our Mission</h4>
                   <h4>Leadership</h4>
@@ -108,8 +108,8 @@ function Footer() {
         </div>
       </div>
         <div className="bg-accent ">
-          <div className="max-w-screen-2xl mx-auto w-[80%] opacity-70 py-8">
-          <div className="flex text-xs gap-8 justify-center px-10 p-2 ">
+          <div className="max-w-screen-2xl mx-auto md:w-[80%] opacity-70 py-8">
+          <div className="flex flex-wrap text-xs gap-4 md:gap-8 justify-center py-4 md:px-10 p-2 ">
                   <h4>Terms of Service</h4>
                   <h4>Legal Service</h4>
                   <h4>Trust Centre</h4>

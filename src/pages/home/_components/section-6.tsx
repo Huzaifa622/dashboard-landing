@@ -60,7 +60,7 @@ const CARDS = [
 function Section6() {
   return (
     <div className="bg-[#04304C] text-white">
-      <div className="max-w-screen-2xl mx-auto w-[60%] py-16 ">
+      <div className="max-w-screen-2xl mx-auto w-[90%] md:w-[60%] py-16 ">
         <div className="flex flex-col gap-4 items-center">
           <h1 className="text-4xl text-center" >
             Legal professionals love the way EVS connects their cases and

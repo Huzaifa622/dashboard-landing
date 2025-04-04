@@ -44,12 +44,12 @@ export const CardStack = ({
   };
 
   return (
-    <div className="relative  h-60 w-60 md:h-80 md:w-3xl">
+    <div className="relative  h-80 w-72 md:h-80 md:w-3xl">
       {cards.map((card, index) => {
         return (
           <motion.div
             key={card.id}
-            className="absolute dark:bg-black bg-gradient-to-r from-[#06314E] via-[#12497C] to-[#097399] h-60 w-60 md:h-80 md:w-3xl rounded-3xl p-4 shadow-xl border border-[#447BA0] dark:border-white/[0.1]  shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-between"
+            className="absolute dark:bg-black bg-gradient-to-r from-[#06314E] via-[#12497C] to-[#097399] h-80 w-72 md:h-80 md:w-3xl rounded-3xl p-4 shadow-xl border border-[#447BA0] dark:border-white/[0.1]  shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-between"
             style={{
               transformOrigin: "top center",
             }}
@@ -59,15 +59,15 @@ export const CardStack = ({
               zIndex: cards.length - index, //  decrease z-index for the cards that are behind
             }}
           >
-            <div className="flex p-4 relative" >
+            <div className="flex flex-col md:flex-row p-4 relative" >
               <img src="images/quotation.png" alt="" className="absolute top-4 left-4"  />
-            <div className="font-normal flex flex-col gap-6 text-neutral-200 pr-16 mt-8">
+            <div className="font-normal flex flex-col gap-6 text-sm text-neutral-200 md:pr-16 mt-8">
               {card.content}
               <div  >{card.designation}</div>
               <Link to={""} className="group text-white mt-4 flex gap-4 items-center hover:text-sky-600 transition ease-in-out duration-200">Read Case Study<span aria-hidden="true" className="inline-block translate-x-0 group-hover:translate-x-1 transition-transform ease-in-out duration-200"><ArrowRight size={14} /></span></Link>
             </div>
             
-            <div><img src={card.img} className="w-2xl"/></div>
+            <div className=" hidden md:block" ><img src={card.img} className="w-2xl"/></div>
             </div>
             <div>
               {/* <p className=" font-medium text-white">

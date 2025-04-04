@@ -3,10 +3,10 @@ import Title from "./ui/title";
 function Section5() {
   return (
     <div className="bg-[#04304C] text-white">
-      <div className="max-w-screen-2xl mx-auto w-[60%] py-16 ">
+      <div className="max-w-screen-2xl mx-auto  md:w-[60%] py-16 ">
         <div className=" shadow-xl shadow-gray-500 rounded-xl">
-          <div className="flex">
-            <div className="p-8 w-[60%]">
+          <div className="flex flex-col md:flex-row">
+            <div className="p-8 md:w-[60%]">
               <Title title="Connect With Clients" />
               <h1 className="text-[1.7rem] font-bold mb-4">
                 Effortlessly stay in touch with clients
@@ -29,7 +29,7 @@ function Section5() {
               Set your clients up for success
           </button>
             </div>
-            <div className="w-[60%]" >
+            <div className="md:w-[60%]" >
               <img src="images/oldm.png" alt="old man" className="w-full" />
             </div>
           </div>

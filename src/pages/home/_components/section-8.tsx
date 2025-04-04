@@ -10,8 +10,8 @@ function Section8() {
           <div className="flex flex-col gap-5 items-center">
             <h1 className="text-2xl font-bold">Events</h1>
 
-            <div className="flex gap-2 ">
-              <div className="w-[50%] relative group  transition-all ease-linear">
+            <div className="flex flex-col md:flex-row gap-2 ">
+              <div className="md:w-[50%] relative group  transition-all ease-linear">
                 <img src="images/bg2.png" alt="backgorund" />
                 <div className="bg-black/50 opacity-0 invisible bg-clip-padding backdrop-filter backdrop-blur-xs flex-col gap-4 transition-all ease-linear duration-300 absolute bottom-0 left-0 p-2 pb-24 rounded-b-2xl py-8 group-hover:opacity-100 group-hover:visible">
                   <div className="text-xs ">Event</div>
@@ -40,7 +40,7 @@ function Section8() {
                   </Link>
                 </div>
               </div>
-              <div className="w-[50%] flex flex-col gap-3">
+              <div className="md:w-[50%] flex flex-col gap-3">
                 <EventCard />
                 <EventCard />
                 <EventCard />
@@ -53,8 +53,8 @@ function Section8() {
           <div className="flex flex-col gap-5 items-center">
             <h1 className="text-2xl font-bold">Resources</h1>
 
-            <div className="flex gap-2 ">
-              <div className="w-[50%] relative group  transition-all ease-linear">
+            <div className="flex flex-col md:flex-row gap-2 ">
+              <div className="md:w-[50%] relative group  transition-all ease-linear">
                 <img src="images/bg3.png" alt="backgorund" />
                 <div className="bg-black/50 opacity-0 invisible bg-clip-padding backdrop-filter backdrop-blur-xs flex-col gap-4 transition-all ease-linear duration-300 absolute bottom-0 left-0 p-2 pb-24 rounded-b-2xl py-8 group-hover:opacity-100 group-hover:visible">
                   <div className="text-xs ">Event</div>
@@ -83,7 +83,7 @@ function Section8() {
                   </Link>
                 </div>
               </div>
-              <div className="w-[50%] flex flex-col gap-3">
+              <div className="md:w-[50%] flex flex-col gap-3">
                 <EventCard />
                 <EventCard />
                 <EventCard />
