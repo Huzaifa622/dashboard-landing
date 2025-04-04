@@ -37,7 +37,7 @@ function Herobanner() {
           />
         </div>
         <div className="flex justify-center  items-center" >
-          <div className="flex flex-wrap items-center gap-6 w-[70%]" >
+          <div className="flex flex-col  md:flex-row items-center gap-6 w-[70%]" >
           <div className="flex items-center gap-6">
             <Card percent="100+" para="Approved by more than 100 bar associations and law societies worldwide, including all 50 US state bars" />
           </div>
