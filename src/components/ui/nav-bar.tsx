@@ -1,6 +1,6 @@
 import { UserRound } from "lucide-react";
 import { Link } from "react-router-dom";
-import NavBtn from "./nav-btn";
+// import NavBtn from "./nav-btn";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -53,16 +53,16 @@ const components: { title: string; to: string; description: string }[] = [
 ];
 function Navbar() {
   return (
-    <div className="py-8 max-w-screen-2xl mx-auto w-[80%]">
-      <div className="flex justify-end text-[1rem]">
+    <div className="py-4 max-w-screen-2xl mx-auto w-[80%]">
+      {/* <div className="flex justify-end text-[1rem]">
         <Link to={"/login"} className="flex gap-2 items-center ">
           <NavBtn title="Login" /> <UserRound className="w-4" />{" "}
         </Link>
-      </div>
+      </div> */}
       <div className="flex justify-between items-center">
-        <div>
+        <Link to={"/"}>
           <Logo/>
-        </div>
+        </Link>
         <div className="hidden md:block">
           <NavigationMenu>
             <NavigationMenuList>
@@ -131,13 +131,13 @@ function Navbar() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <div>
+        <Link to={"https://lawfirm-crm.vercel.app"}>
           <div className="group [transform:translateZ(0)] px-6 py-2 rounded-full bg-gray-200 overflow-hidden relative before:absolute before:bg-sky-600 before:bottom-0 before:left-0 before:h-full before:w-full before:-translate-x-full hover:before:translate-x-0 before:transition before:ease-in-out before:duration-500">
-            <span className="relative z-0 capitalize text-black group-hover:text-gray-200 transition ease-in-out duration-500">
-              try evs for free
+            <span className="relative z-0 flex gap-2 capitalize text-black group-hover:text-gray-200 transition ease-in-out duration-500">
+              login <UserRound className="w-4" />
             </span>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import Review from "@/components/review";
-import DemoBTN from "./ui/demo-btn";
-import TryBTN from "./ui/try-btn";
+// import DemoBTN from "./ui/demo-btn";
+// import TryBTN from "./ui/try-btn";
 import Card from "./ui/card";
 
 
@@ -19,8 +19,8 @@ function Herobanner() {
           The top-rated case management software by legal professionals and
           clients alike.
         </h1>
-        <DemoBTN />
-        <TryBTN />
+        {/* <DemoBTN />
+        <TryBTN /> */}
       </div>
       <div className="flex flex-col gap-4">
         <div className="relative flex justify-center">
